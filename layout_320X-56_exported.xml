@@ -52,6 +52,9 @@
  </options>
  <modifiers />
  <actionmap name="seat_general">
+  <action name="v_eject">
+   <rebind input="js2_ "/>
+  </action>
   <action name="v_toggle_mining_mode">
    <rebind input="js1_button14"/>
   </action>
@@ -541,8 +544,12 @@
   </action>
  </actionmap>
  <actionmap name="player_input_optical_tracking">
+  <action name="foip_cyclechannel">
+   <rebind input="js2_button27"/>
+  </action>
   <action name="foip_pushtotalk">
    <rebind input="kb1_capslock"/>
+   <rebind input="js2_button1"/>
   </action>
   <action name="foip_pushtotalk_proximity">
    <rebind input="kb1_lalt+capslock"/>
@@ -553,7 +560,10 @@
    <rebind input="js1_ "/>
   </action>
   <action name="pc_interaction_mode">
-   <rebind input="js2_button1"/>
+   <rebind input="js2_ "/>
+  </action>
+  <action name="pc_select">
+   <rebind input="js1_ "/>
   </action>
  </actionmap>
 </ActionMaps>
