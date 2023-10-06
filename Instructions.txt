@@ -1,0 +1,58 @@
+thank arakahn for the amazing template!
+https://www.digitalcombatsimulator.com/en/files/3324874/
+
+These mappings are best suited for people who also have head tracking.
+
+To load these keybindings copy layout_x320X-56_exported.xml and paste it in your
+StarCitizen\LIVE\USER\Client\0\Controls\Mappings folder. Load up star citizen and
+go to your options -> keybindnigs tab then click on control profiles and select
+320X-56 and match the first joystick device profile with 1: Saitek pro flight..
+ and match the second joystick device profile with 2: Saitek pro flight x-5...
+I have a few m&kb changes but those are optional and you can leave those blank.
+Select the Load to load in the profile.
+In addition to loading the control profile go to the controls tab and make the
+following modifications:
+
+Joystick 1 (Stick)
+
+Deadzone joystick x axis : 0
+Deadzone joystick y axis : 0
+Deadzone joystick x rotation: .03
+Deadzone joystick y rotation: .03
+Deadzone joystick z rotation: .03
+
+Sensitivity curves: flight\flight movement
+
+Pitch: 1.10
+Yaw: 1.10
+Strafe up/down: 1.30
+Strafe left/right: 1.30
+
+Inversions:
+flight strafe (up/down): yes
+dynamic zoom (abs): yes
+
+Joystick 2 (Throttle)
+
+Deadzone joystick x axis: 0
+Deadzone joystick y axis: 0
+Deadzone joystick z axis: 0
+deadzone x rotation: .03
+deadzone y rotation: .03
+deadzone z rotation:  0
+deadzone joystick slider 1: 0
+deadzone joystick slider 2: 0
+
+Sensitivity curves: flight\flight movement
+
+throttle forward/backward: 1.30
+
+Inversions:
+throttle forward/backwards: yes
+throttle forwards (abs): yes
+
+
+
+
+
+
